@@ -1,0 +1,202 @@
+/* Admin css*/
+h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu{
+    width: 185px;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: #000000;
+    padding-top: 80px;
+    text-align: center;
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color:#818181;
+    text-align: left;
+}
+.menu > a{
+    padding-left: 10px;
+}
+.menu a span:after{
+    content:'\21B4';
+    transition: 0.5s ease;
+    position: absolute;
+    right: 0px;
+    opacity: 0;
+
+}
+
+.menu a:hover{
+    color: white;
+}
+.menu a:hover span:after{
+    opacity: 1;
+    color: white;
+    right: 30px;
+}
+
+.content{
+    margin-left: 185px;
+}
+
+.menu .second_menu{
+    border: 1px solid white;
+    background-color: #cccccc;
+    color: red;
+
+}
+.menu .second_menu li{
+    list-style: square;
+}
+.menu .second_menu li a{
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+
+}
+.menu .second_menu li:hover,
+.menu .second_menu li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.content h2{
+    text-align: center;
+}
+
+#page,
+#portfolio
+{
+    display: none;
+
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+table th{
+    text-align: center;
+}
+
+/*Помилки валідації*/
+.danger{
+    color: red;
+}
+
+
+/*show all pages*/
+.block{
+    width: 100%;
+    margin: 10px;
+
+}
+.block h4{
+    font-size: 18pt;
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+}
+.img_small{
+    width: 100%;
+}
+.block .text{
+
+}
+.block .col{
+    height: 200px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.block .col:nth-child(2n){
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.block .col:hover h4{
+    color:red;
+}
+.add_Btn{
+    margin-top: 20px;
+    float: right;
+    opacity: 0.6;
+}
+.add_Btn:hover{
+    opacity: 1;
+}
+.tableH tr:hover{
+    background: #bce8f1;
+}
+.col_1:before{
+    content: "Колонка - №1";
+    text-decoration: underline;
+    font-size: 18px;
+    color: #cb2026;
+
+
+}
+.col_2:before{
+     content: "Колонка - №2";
+     text-decoration: underline;
+     font-size: 18px;
+     color: #cb2026;
+    padding: 0 20px;
+
+
+ }
+.col_3:before{
+    content: "Колонка - №3";
+    text-decoration: underline;
+    font-size: 18px;
+    color: #cb2026;
+
+
+}
+.border_side{
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+
+}
+
+/*edit page*/
+.edit_block{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+}
+.edit_block p{
+    text-align: justify;
+    padding: 2% 20px;
+}
+.border_left{
+    border-left: 1px solid gray;
+}
+
+.list a:hover{
+    background: #0d3625;
+    text-decoration: none;
+}
+.list a:hover h3{
+    background: black;
+    color: white;
+}
+
+/*portfolio*/
+.small_img{
+    width: 20%;
+
+}
+td{
+    text-align: center;
+}
+.link{
+    text-transform: uppercase;
+}
